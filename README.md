@@ -1,10 +1,10 @@
-# 🎯 Dynamic Pricing using Reinforcement Learning
+# Dynamic Pricing using Reinforcement Learning
 
 **A complete academic project demonstrating AI-powered dynamic pricing optimization**
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 ### Title
 **Dynamic Pricing using Reinforcement Learning**
@@ -23,41 +23,38 @@ This project aims to simulate such an environment and train an AI agent that:
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 dynamic_pricing_rl_project/
 │
-├── 📁 notebooks/
+├── notebooks/
 │   ├── 1_data_generation.ipynb         # Simulate demand dataset
 │   ├── 2_environment_creation.ipynb    # Define & test Gym environment
 │   ├── 3_agent_training.ipynb          # Train RL agent (PPO)
 │   ├── 4_evaluation_analysis.ipynb     # Evaluate, visualize, compare baselines
 │   └── 5_report_summary.ipynb          # Final analysis & presentation
 │
-├── 📁 saved_models/
+├── saved_models/
 │   └── pricing_agent_ppo.zip           # Trained PPO model
 │
-├── 📁 data/
+├── data/
 │   └── simulated_demand.csv            # Synthetic demand data
 │
-├── 📁 visuals/
+├── visuals/
 │   ├── price_vs_demand.png             # Price-demand relationship
 │   ├── reward_curve.png                # Learning progress
 │   └── performance_comparison.png      # Strategy comparison
 │
-├── streamlit_app.py                    # 🌟 Interactive dashboard
+├── streamlit_app.py                    # Interactive dashboard
 ├── requirements.txt                    # Python dependencies
 ├── README.md                           # This file
-├── SETUP_GUIDE.md                      # Installation instructions
-├── STREAMLIT_GUIDE.md                  # Dashboard usage guide
-├── PROJECT_COMPLETE.md                 # Success summary
-└── STEP_BY_STEP_GUIDE.md               # 📚 Detailed file-by-file guide
+└── PROJECT_DOCUMENTATION.html          # Detailed file-by-file guide
 ```
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -72,7 +69,7 @@ dynamic_pricing_rl_project/
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -92,14 +89,14 @@ dynamic_pricing_rl_project/
 
 3. **Verify installation**
    ```bash
-   python -c "import gymnasium, stable_baselines3; print('✅ Installation successful!')"
+   python -c "import gymnasium, stable_baselines3; print('Installation successful!')"
    ```
 
 ---
 
-## 🚀 Usage
+## Usage
 
-### Option 1: Interactive Streamlit Dashboard 🌟 (Recommended!)
+### Option 1: Interactive Streamlit Dashboard (Recommended)
 
 Run the real-time interactive visualization:
 
@@ -108,13 +105,11 @@ streamlit run streamlit_app.py
 ```
 
 **Features:**
-- 🎮 Real-time simulation controls
-- 📊 Live charts comparing RL vs baselines
-- 💰 Revenue tracking and performance metrics
-- 🏆 Strategy comparison and winner announcement
-- ⚙️ Configurable simulation parameters
-
-See [STREAMLIT_GUIDE.md](STREAMLIT_GUIDE.md) for detailed instructions.
+- Real-time simulation controls
+- Live charts comparing RL vs baselines
+- Revenue tracking and performance metrics
+- Strategy comparison and winner announcement
+- Configurable simulation parameters
 
 ### Option 2: Jupyter Notebooks
 
@@ -145,33 +140,32 @@ Execute notebooks in order:
 5. **Report Summary** (`5_report_summary.ipynb`)
    - Complete project summary
    - Key findings and conclusions
-   - Future work recommendations
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 ### Performance Comparison
 
 The RL agent (PPO) demonstrates superior performance:
 
-- **✅ Revenue Maximization**: Highest total revenue among all strategies
-- **✅ Adaptive Pricing**: Dynamically adjusts to market conditions
-- **✅ Learning Efficiency**: Converges within 100K timesteps
-- **✅ Robustness**: Maintains performance across seasons
+- **Revenue Maximization**: Highest total revenue among all strategies
+- **Adaptive Pricing**: Dynamically adjusts to market conditions
+- **Learning Efficiency**: Converges within 100K timesteps
+- **Robustness**: Maintains performance across seasons
 
 ### Baseline Comparisons
 
 | Strategy | Description | Performance |
 |----------|-------------|-------------|
-| **RL Agent (PPO)** | Learned dynamic pricing | 🏆 Best |
+| **RL Agent (PPO)** | Learned dynamic pricing | Best |
 | **Fixed (₹100)** | Constant price at ₹100 | Baseline |
 | **Fixed (₹120)** | Constant price at ₹120 | Below optimal |
 | **Random** | Random price selection | Worst |
 
 ---
 
-## 🎯 Real-World Applications
+## Real-World Applications
 
 This approach can be applied to:
 
@@ -184,7 +178,7 @@ This approach can be applied to:
 
 ---
 
-## 🧠 Technical Details
+## Technical Details
 
 ### Environment Specifications
 
@@ -207,19 +201,7 @@ Where:
 
 ---
 
-## 📈 Future Improvements
-
-1. **Real Data Integration**: Use actual sales and market data
-2. **Multi-Product Pricing**: Handle product portfolios
-3. **Advanced Algorithms**: Experiment with A3C, SAC, TD3
-4. **Constraint Handling**: Add business rules (minimum margins)
-5. **Deployment**: Create API for real-time recommendations
-6. **Multi-Agent**: Simulate competing pricing agents
-7. **Explainability**: Add interpretability to pricing decisions
-
----
-
-## 📚 References
+## References
 
 ### Papers
 1. Schulman, J., et al. (2017). "Proximal Policy Optimization Algorithms"
@@ -232,45 +214,5 @@ Where:
 - [PyTorch](https://pytorch.org/)
 
 ---
-
-## 👨‍🎓 Academic Use
-
-This project is suitable for:
-- ✅ Reinforcement Learning course projects
-- ✅ Machine Learning applications
-- ✅ Operations Research demonstrations
-- ✅ AI/Business optimization case studies
-
-### Learning Outcomes
-- Understanding of RL fundamentals (MDP, rewards, policies)
-- Practical implementation with Stable-Baselines3
-- Custom environment creation with Gymnasium
-- Performance evaluation methodologies
-- Real-world AI/ML application
-
----
-
-## 📝 License
-
-This project is created for educational purposes.
-
----
-
-## 🤝 Contributing
-
-Feel free to:
-- Report issues
-- Suggest improvements
-- Extend the project
-
----
-
-## 📧 Contact
-
-For questions or suggestions, please create an issue in the project repository.
-
----
-
-**🎉 Happy Learning!**
 
 *Demonstrating the power of Reinforcement Learning in solving real-world business optimization problems.*
