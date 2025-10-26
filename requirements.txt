@@ -1,0 +1,9 @@
+gymnasium
+numpy
+pandas
+matplotlib
+seaborn
+stable-baselines3
+tqdm
+rich
+streamlit
