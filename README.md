@@ -69,7 +69,34 @@ dynamic_pricing_rl_project/
 
 ---
 
-## Installation
+## Quick Start (Recommended)
+
+### One-Command Setup
+
+After cloning the repository, just run:
+
+**macOS/Linux:**
+```bash
+./run_project.sh
+```
+
+**Windows:**
+```bash
+run_project.bat
+```
+
+This automated script will:
+- Create virtual environment
+- Install all dependencies
+- Run all notebooks in order
+- Train the RL model
+- Launch the Streamlit dashboard
+
+See [QUICKSTART.md](QUICKSTART.md) for details.
+
+---
+
+## Manual Installation
 
 ### Prerequisites
 - Python 3.8 or higher
